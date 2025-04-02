@@ -9,5 +9,20 @@
              d:Background="AliceBlue">
     <StackPanel>
         <Label>Vezérlőpult</Label>
+        <StackPanel Orientation="Horizontal">
+            <Label>Ösztöndíjasok száma</Label>
+            <Label Content="{Binding NumberOfScholarship}"></Label>
+            <Label></Label>
+        </StackPanel>
+        <StackPanel>
+            <Label>Ösztöndíjra jogosult diákok</Label>
+            <Label Content="{Binding NumberOfStudentWithScholarship}"></Label>
+            <Label></Label>
+        </StackPanel>
+        <StackPanel>
+            <Label>Ösztöndíjra nem jogosult diákok</Label>
+            <Label Content="{Binding NumberOfStudentWithoutScholarship}"></Label>
+            <Label></Label>
+        </StackPanel>
     </StackPanel>
 </UserControl>

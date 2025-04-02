@@ -9,5 +9,6 @@
              d:Background="AliceBlue">
     <StackPanel>
         <Label>Ösztöndíjasok kezelése</Label>
+        <ListView ItemsSource="{Binding Scholarships}"></ListView>
     </StackPanel>
 </UserControl>

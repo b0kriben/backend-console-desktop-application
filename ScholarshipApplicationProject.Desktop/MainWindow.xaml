@@ -8,6 +8,9 @@
         xmlns:viewModel="clr-namespace:ScholarshipApplicationProject.Desktop.ViewModel"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.DataContext>
+        <viewModel:MainViewModel/>
+    </Window.DataContext>
     <StackPanel>
         <view:ControlPanelView DataContext="{Binding ControlPanelViewModel}"/>
         <view:ScholarshipApplicationManagementView DataContext="{Binding ScholarshipApplicantManagmentViewModel}"/>

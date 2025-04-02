@@ -18,6 +18,20 @@ namespace ScholarshipApplicationProject.Console.Repo
             return _context.Scholarships.Count();
         }
 
+        public int GetNumberOfStudentWithScholarship()
+        {
+            return _context.Scholarships.Count(s => s.Amount > 0);
+        }
+        public int GetNumberOfStudentWithoutScholarship()
+        {
+            return _context.Scholarships.Count(s => s.Amount == 0);
+        }
+
+        /*public List<ScholarshipApplicant> GetAll()
+        {
+            return _context.Scholarships.ToList();
+        }*/
+
         //1. feladat: Az összes ösztöndíjas listázása
         public string ListAllScholarships()
         {

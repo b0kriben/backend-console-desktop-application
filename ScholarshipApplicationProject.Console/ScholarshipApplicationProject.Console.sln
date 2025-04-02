@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScholarshipApplicationProje
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScholarshipApplicationProject.Desktop", "..\ScholarshipApplicationProject.Desktop\ScholarshipApplicationProject.Desktop.csproj", "{6A699820-A3CC-422D-8801-C28C8E678F5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScholarshipApplicationProject.DesktopTests", "..\ScholarshipApplicationProject.DesktopTests\ScholarshipApplicationProject.DesktopTests.csproj", "{EE2CC858-415A-4257-A0D9-4A3823211594}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6A699820-A3CC-422D-8801-C28C8E678F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A699820-A3CC-422D-8801-C28C8E678F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A699820-A3CC-422D-8801-C28C8E678F5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2CC858-415A-4257-A0D9-4A3823211594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2CC858-415A-4257-A0D9-4A3823211594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2CC858-415A-4257-A0D9-4A3823211594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2CC858-415A-4257-A0D9-4A3823211594}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
